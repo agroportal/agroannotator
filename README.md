@@ -241,7 +241,7 @@ python $ALGO
 
 #### AgrospAI algorithm registration
 
-* **Docker image:** setecores96/humble-annotator:0.1.1
+* **Docker image:** `setecores96/humble-annotator:0.1.1`
 * **Entrypoint:** `python $ALGO`
 * **Algorithm URL:** `[https://raw.githubusercontent.com/agroportal/agroannotator/refs/heads/main/algo.py]`
 
