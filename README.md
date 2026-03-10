@@ -243,7 +243,7 @@ python $ALGO
 
 * **Docker image:** setecores96/humble-annotator:0.1.1
 * **Entrypoint:** `python $ALGO`
-* **Algorithm URL:** `algo.py`
+* **Algorithm URL:** `[algo.py](https://raw.githubusercontent.com/agroportal/agroannotator/refs/heads/main/algo.py)`
 
 Dataset is staged under:
 
