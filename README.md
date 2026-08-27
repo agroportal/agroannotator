@@ -2,7 +2,7 @@
 
 AgroAnnotator is a Compute-to-Data (CtD) algorithm for **AgrospAI** that:
 
-* extracts text from **PDF / HTML / TXT / DOCX**
+* extracts text from **PDF / HTML / TXT**
 * calls the **AgroPortal Annotator API**
 * handles large documents via **chunking**
 * merges/deduplicates annotations across chunks
@@ -57,7 +57,6 @@ The script accepts **one input file** (or stdin).
 * **PDF (.pdf)** — extracted via PyPDF2
 * **HTML (.html, .htm)** — visible text extracted (scripts/styles removed) using BeautifulSoup library (or a fallback parser if the library isn't available at the run time).
 * **Plain text (.txt, .md)**
-* **DOCX (.docx)** — extracted via python-docx
 * **No-extension files** (Pontus-X staging)
 
 Pontus-X may stage the input as a file named `0` with **no extension**.
@@ -284,7 +283,6 @@ Benefits:
 
 * `PyPDF2` (PDF)
 * `beautifulsoup4` (HTML extraction)
-* `python-docx` (DOCX)
 
 ---
 
@@ -295,7 +293,6 @@ python -m py_compile algo.py
 python -c "import requests; print('requests OK')"
 python -c "import PyPDF2; print('PyPDF2 OK')"
 python -c "import bs4; print('beautifulsoup4 OK')"
-python -c "import docx; print('python-docx OK')"
 ```
 
 ---
