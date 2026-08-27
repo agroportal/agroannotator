@@ -29,7 +29,7 @@ from urllib.parse import quote, urlparse
 import requests
 
 DEFAULT_BASE_URL = "https://data.agroportal.eu"
-DEFAULT_API_KEY = os.environ.get("AGROPORTAL_API_KEY", "2ae6878b-a599-4cee-8224-e8efaf6f610e")
+DEFAULT_API_KEY = os.environ.get("AGROPORTAL_API_KEY", "06854b64-4027-4336-bc5c-c55fedc39c03")
 DEFAULT_ONTOLOGY = (os.environ.get("AGROPORTAL_DEFAULT_ONTOLOGY") or "AGROVOC").strip() or "AGROVOC"
 DEFAULT_LABEL_LANG = (os.environ.get("AGROPORTAL_LABEL_LANG") or "en").strip() or "en"
 
